@@ -1,6 +1,5 @@
 ---
 title: Index Page
-layout: default
 ---
 
 ## Welcome to GitHub Pages
