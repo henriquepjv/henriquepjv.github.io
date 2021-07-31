@@ -1,5 +1,5 @@
 ---
-title:  "Bem-vindo ao Jekyll!"
+title: "Bem-vindo ao Jekyll!"
 ---
 
 # Bem-vindo!
