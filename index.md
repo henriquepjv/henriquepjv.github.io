@@ -2,6 +2,19 @@
 layout: default
 ---
 
+<!-- Main Img Section -->
+
+<div class="intro-header">
+  <div class="w3-container">
+    <div class="w3-row">
+      <div class="col-lg-12">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Main Img Section -->
+
 <!-- Posts Section -->
 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="posts">
   <h2 class="w3-text-orange">Posts</h2>
