@@ -1,6 +1,7 @@
 ---
 title: "Bem-vindo ao Jekyll!"
 layout: posts
+related_image: ./assets/img/git_and_jekyll.jpg
 ---
 
 <div class="w3-display-container">

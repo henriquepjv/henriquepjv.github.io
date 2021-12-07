@@ -11,7 +11,7 @@ layout: posts
       {% for post in site.posts %}
         <a href="{{ post.url }}">
           <li class="w3-padding-16">
-            <img src="/assets/img/git_and_jekyll.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <img src="{{ post.related_image }}" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">{{ post.title }}</span><br>
             <span>Isso deve ser uma partial</span>
           </li>
