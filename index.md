@@ -39,10 +39,9 @@ layout: default
 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
   <h2 class="w3-text-orange">Henrique Panham</h2>
   <hr style="width:200px" class="w3-opacity">
-  <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
+  <p>Bacharel em Sistemas de Informação pela Universidade Paulista.</p>
+  <p>Atuo como desenvolvedor web e venho estudando e criando projetos com a linguagem Ruby, com o objetivo de me especializar. Tenho muito interesse em desenvolver projetos novos e desafiadores, assim me incentiva a resolver problemas e aumentar meu know-how.</p>
+  <p>Conhecimentos práticos em desenvolvimento de aplicações com metodologias ágeis, utlizando sempre as melhores práticas como cobertura de testes (Rspec, TDD, Capybara), princípios SOLID, uso de repositório de dados(GitHub), docker, continuous integration(Semaphore) e Linux como SO. Desenvolvendo nas linguagens Ruby on Rails, CSS, HTML e Javascript.</p>
 
   <h3 class="w3-padding-16 w3-text-orange">My Skills</h3>
   <p class="w3-wide">Beber café</p>
