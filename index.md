@@ -43,7 +43,7 @@ layout: default
   <p>Atuo como desenvolvedor web e venho estudando e criando projetos com a linguagem Ruby, com o objetivo de me especializar. Tenho muito interesse em desenvolver projetos novos e desafiadores, assim me incentiva a resolver problemas e aumentar meu know-how.</p>
   <p>Conhecimentos práticos em desenvolvimento de aplicações com metodologias ágeis, utlizando sempre as melhores práticas como cobertura de testes (Rspec, TDD, Capybara), princípios SOLID, uso de repositório de dados(GitHub), docker, continuous integration(Semaphore) e Linux como SO. Desenvolvendo nas linguagens Ruby on Rails, CSS, HTML e Javascript.</p>
 
-  <h3 class="w3-padding-16 w3-text-orange">My Skills</h3>
+  <h3 class="w3-padding-32 w3-text-orange">My Skills</h3>
   <p class="w3-wide">Beber café</p>
   <div class="w3-white">
     <div class="w3-dark-grey" style="height:28px;width:95%"></div>
