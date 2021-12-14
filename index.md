@@ -75,16 +75,17 @@ layout: default
   </div><br>
   <p>Entre em contato:</p>
 
-  <form action="/action_page.php" target="_blank">
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+  <form action="https://formspree.io/f/mjvlvevw" method="POST">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="_name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="_replyto"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required name="_subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagem" required name="_message"></p>
     <p>
       <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <i class="fa fa-paper-plane"></i> Enviar
       </button>
     </p>
   </form>
 <!-- End Contact Section -->
 </div>
+

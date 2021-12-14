@@ -6,6 +6,9 @@
 - Jekyll
 - Css framework - W3
 
+### Aplicativos terceiros
+- FormSpree (lida com o envio de email a partir do form)
+
 ### Como rodar local
 - Instalar dependências:
 `bundle install`
