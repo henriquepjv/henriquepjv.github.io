@@ -27,7 +27,44 @@ estático.</p>
 pois sempre utilizei o bootstrap e estou testando para ver quais são os pontos
 positivos e negativos.</p>
   <p>E para configurar o disparo de email utilizei o <a href="https://formspree.io/">formspree</a>
- possui diversas funcionalidades.</p>
+ porque ele possui diversas funcionalidades e um limite aceitável para o plano
+grátis.</p>
+
+  <h2 class="w3-text-orange blog-subtitle">Antigo portifólio</h2>
+  <p>Em um passado não muito distante, eu tinha criado um portifólio com base no
+que eu tinha aprendido de Ruby on Rails até o momento. E vou tentar explicar o
+motivo de ter desistido do projeto antigo e ter criado esse novo através do
+github pages.</p>
+  <p>Link do portifólio: <a href="https://henriquepanham.herokuapp.com/">henriquepanham.herokuapp.com</a></p>
+  <p>Stack utilizada:</p>
+  <p>- Ruby</p>
+  <p>- Rails</p>
+  <p>- Banco de dados Postgres</p>
+  <p>- Hospedado no Heroku</p>
+  <p>- Muuitas gems (rails admin, devise, simpleform, cancancan, etc...)</p>
+  <p>- Repositório: <a href="https://github.com/henriquepjv/portifolio">Github</a></p>
+
+  <h3 class="w3-text-orange">Pontos positivos</h3>
+  <p>- Possibilidade de escrever novos posts sem depender do Git, tendo uma rota
+dentro do path admin para criar um novo post totalmente formatado.</p>
+  <p>- Controle de permissões de accesso de páginas.</p>
+
+  <h3 class="w3-text-orange">Pontos negativos</h3>
+  <p>- Manutenção muito complicada, pois pela grande quantidade de dependências
+foi difícil deixar tudo atualizado e sem vulnerabilidades.</p>
+  <p>- Até mesmo o Heroku ficou desatualizado e preciso trocar a stack antiga
+por uma nova recomendada por eles e testar para ver se tem suporte para tudo o
+que rodava na stack anterior.</p>
+  <p>- Preocupação de manter tudo rodando corretamente e tomar cuidado com a
+configuração do banco de dados e gerar backups.</p>
+  <p>- Uma bazuca para matar uma formiga, porque eu tinha uma stack muito ampla
+e estava usando apenas uma pequena parte para fazer algo simples.</p>
+
+  <h3 class="w3-text-orange">Resultado</h3>
+  <p>O antigo portifólio acabou ficando abandonado por causa da correria do dia
+a dia e acabei nunca mais atualizando o repositório muito menos os posts.</p>
+  <p>E para esse novo portifólio estou acertando um template para que tenha o
+foco somente em escrever novos posts sem me preocupara com o resto da stack.</p>
 
   <h2 class="w3-text-orange blog-subtitle">Código fonte</h2>
   <hr style="width:200px" class="w3-opacity">
