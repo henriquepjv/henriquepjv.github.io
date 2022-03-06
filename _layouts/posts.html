@@ -10,14 +10,6 @@
   <style>
     body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     .w3-row-padding img {margin-bottom: 12px}
-    footer {
-      bottom:0;
-      margin-top:30px;
-      display:block;
-      width:100%;
-      position:fixed
-
-    }
     img.post-main-img {
       max-width: 50%;
       display: block;
@@ -32,6 +24,19 @@
       margin-top:50px;
       margin-bottom:0px;
     }
+    #main_content {
+      min-height: 100vh;
+    }
+
+    a.without-decoration {
+      text-decoration: none;
+    }
+    footer {
+      margin-top:30px;
+      display:block;
+      width:100%;
+      position: absolute;
+    }
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
       #main {margin-left: 0}
@@ -42,14 +47,15 @@
         max-width: 90%;
 
       }
+      footer {
+        position: absolute;
+      }
     }
   </style>
 
   <body>
-
     <div id="container">
       <div class="inner">
-
         <div class="w3-top nav-margin">
           <div class="w3-bar w3-light-gray w3-large">
             <a href="/index" class="w3-bar-item w3-button w3-col s3">Home</a>
@@ -80,7 +86,6 @@
             <a href='https://www.linkedin.com/in/henrique-panham-junqueira-1454b2b3/'><i class="fa fa-linkedin w3-hover-opacity"></i></a>
           </div>
         </footer>
-
       </div>
     </div>
   </body>
