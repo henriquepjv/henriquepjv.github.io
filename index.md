@@ -23,8 +23,8 @@ layout: default
   <div class="w3-third">
     <ul class="w3-ul w3-hoverable">
       {% for post in site.posts %}
-        <a href="{{ post.url }}">
-          <li class="w3-padding-16">
+        <a href="{{ post.url }}" class="without-decoration">
+          <li class="w3-padding-16 list-item">
             <img src="{{ post.related_image }}" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">{{ post.title }}</span><br>
             <span>{{ post.subtitle }}</span>
