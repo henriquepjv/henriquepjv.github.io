@@ -88,5 +88,22 @@
         </footer>
       </div>
     </div>
+
+    <script>
+    /*Mover para js próprio e carregar aqui e no index*/
+    function myFunction() {
+      var x = document.getElementById("colapsed-bar");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function w3_close() {
+      var x = document.getElementById("colapsed-bar");
+      x.className = x.className.replace(" w3-show", "");
+    }
+    </script>
   </body>
 </html>
