@@ -3,6 +3,3 @@ defaults:
       path: "assets/img"
     values:
       image: true
-markdown: kramdown
-kramdown:
-  parse_block_html: true
