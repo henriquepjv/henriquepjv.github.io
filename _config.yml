@@ -3,3 +3,5 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+url: https://henriquepjv.github.io/
