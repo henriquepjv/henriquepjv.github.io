@@ -20,11 +20,11 @@ layout: default
   <h2 class="w3-text-orange">Posts</h2>
   <hr style="width:200px" class="w3-opacity">
 
-  <div class="w3-third">
+  <div class="w3-third full_width">
     <ul class="w3-ul w3-hoverable">
       {% for post in site.posts %}
         <a href="{{ post.url }}" class="without-decoration">
-          <li class="w3-padding-16 list-item">
+          <li class="w3-padding-16 list-item list-post-width">
             <img src="{{ post.related_image }}" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">{{ post.title }}</span><br>
             <span>{{ post.subtitle }}</span>

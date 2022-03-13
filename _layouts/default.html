@@ -27,15 +27,23 @@
     a.without-decoration {
       text-decoration: none;
     }
+    li.list-post-width {
+      width: 33%;
+    }
     li.list-item {
       border: 2px solid #eeeeee7d !important;
       border-radius: 30px 0px 30px 0px;
+      margin-bottom: 20px;
+    }
+    .full_width {
+      width: 100%;
     }
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
       #main {margin-left: 0}
       .w3-content {max-width: 90%}
       .intro-header {height:250px;}
+      li.list-post-width {width: 90%;}
     }
   </style>
 
