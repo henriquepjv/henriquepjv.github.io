@@ -38,6 +38,10 @@
       width:100%;
       position: absolute;
     }
+    #disqus_thread {
+      width: 60%;
+      margin: auto;
+    }
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
       #main {margin-left: 0}
@@ -47,6 +51,9 @@
         margin-top: 60px;
         max-width: 90%;
 
+      }
+      #disqus_thread {
+        width: 80%;
       }
       footer {
         position: absolute;
@@ -78,6 +85,8 @@
           {{ content }}
         </section>
 
+        {% include disqus.html %}
+
         <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
           <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
           <div class="w3-xlarge w3-section">
@@ -96,7 +105,7 @@
       var x = document.getElementById("colapsed-bar");
       if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-      } else { 
+      } else {
         x.className = x.className.replace(" w3-show", "");
       }
     }
@@ -105,6 +114,5 @@
       var x = document.getElementById("colapsed-bar");
       x.className = x.className.replace(" w3-show", "");
     }
-    </script>
   </body>
 </html>

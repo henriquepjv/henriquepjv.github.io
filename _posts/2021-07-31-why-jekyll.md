@@ -2,6 +2,7 @@
 title: "Stack desse blog"
 subtitle: "Por debaixo dos panos"
 layout: posts
+comments: true
 related_image: ./assets/img/git_and_jekyll.jpg
 ---
 
