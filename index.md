@@ -56,7 +56,7 @@ layout: default
   <div class="w3-white">
     <div class="w3-dark-grey" style="height:28px;width:55%"></div>
   </div>
-  <p class="w3-wide">Cantor</p>
+  <p class="w3-wide">Piloto</p>
   <div class="w3-white">
     <div class="w3-dark-grey" style="height:28px;width:5%"></div>
   </div>
