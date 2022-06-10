@@ -2,6 +2,7 @@
 title: "Autoload VS Eagerload"
 subtitle: "Como funciona no Rails"
 layout: posts
+comments: true
 related_image: ./assets/img/autoload_vs_eagerload.png
 ---
 

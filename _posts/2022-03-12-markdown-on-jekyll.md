@@ -2,6 +2,7 @@
 title: "Markdown no Jekyl"
 subtitle: "Blocos de código top"
 layout: posts
+comments: true
 related_image: ./assets/img/markdown-top.png
 ---
 

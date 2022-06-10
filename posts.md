@@ -1,5 +1,6 @@
 ---
 layout: posts
+comments: false
 ---
 
 <!-- Posts Section -->
