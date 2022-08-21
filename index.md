@@ -16,7 +16,7 @@ layout: default
         {% for post in site.posts %}
           <a href="{{ post.url }}" class="without-decoration">
             <li class="w3-padding-16 list-item list-post-width">
-              <img src="{{ post.related_image }}" class="w3-left w3-margin-right" style="width:50px">
+              <img src="{{ post.related_image }}" class="" style="width:50px">
               <span class="w3-large">{{ post.title }}</span><br>
               <span>{{ post.subtitle }}</span>
             </li>

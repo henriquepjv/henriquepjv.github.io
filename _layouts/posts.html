@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="/assets/posts_main.css">
@@ -18,25 +18,9 @@
       margin-left: auto;
       margin-top: 80px;
     }
-    h2.blog-title{
-      margin-bottom:0px;
-    }
-    h2.blog-subtitle{
-      margin-top:50px;
-      margin-bottom:0px;
-    }
     #main_content {
       min-height: 100vh;
-    }
-
-    a.without-decoration {
-      text-decoration: none;
-    }
-    footer {
-      margin-top:30px;
-      display:block;
-      width:100%;
-      position: absolute;
+      height: 100%;
     }
     #disqus_thread {
       width: 60%;
@@ -62,57 +46,46 @@
   </style>
 
   <body>
-    <div id="container">
-      <div class="inner">
-        <div class="w3-top nav-margin">
-          <div class="w3-bar w3-light-gray w3-large">
-            <a href="/index" class="w3-bar-item w3-button w3-col s3">Home</a>
-            <a href="/posts" class="w3-bar-item w3-button w3-hide-small w3-col s3">Posts</a>
-            <a href="/index#about" class="w3-bar-item w3-button w3-hide-small w3-col s3">Sobre</a>
-            <a href="/index#contact" class="w3-bar-item w3-button w3-hide-small w3-col s3">Contato</a>
-            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-          </div>
-
-          <div id="colapsed-bar" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
-            <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Fechar &times;</button>
-            <a href="/posts" class="w3-bar-item w3-button">Posts</a>
-            <a href="/index#about" class="w3-bar-item w3-button">Sobre</a>
-            <a href="/index#contact" class="w3-bar-item w3-button">Contato</a>
-          </div>
+    <script src="{{'/assets/js/bootstrap/bootstrap.bundle.min.js'}}"></script>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" thttps://github.com/nvm-sh/nvm#installation-and-updateype="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/posts.html">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index#contact">Contato</a>
+            </li>
+          </ul>
         </div>
-
-        <section id="main_content">
-          {{ content }}
-        </section>
-
-        {% include disqus.html %}
-
-        <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-          <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-          <div class="w3-xlarge w3-section">
-            <a href='https://www.instagram.com/hrqjunqueira/'><i class="fa fa-instagram w3-hover-opacity"></i></a>
-            <a href='https://github.com/henriquepjv'><i class="fa fa-github w3-hover-opacity"></i></a>
-            <a href='https://twitter.com/henriquepjv'><i class="fa fa-twitter w3-hover-opacity"></i></a>
-            <a href='https://www.linkedin.com/in/henrique-panham-junqueira-1454b2b3/'><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-          </div>
-        </footer>
       </div>
-    </div>
+    </nav>
 
-    <script>
-    /*Mover para js próprio e carregar aqui e no index*/
-    function myFunction() {
-      var x = document.getElementById("colapsed-bar");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
+    <section id="main_content" class="pt-4">
+      {{ content }}
+    </section>
 
-    function w3_close() {
-      var x = document.getElementById("colapsed-bar");
-      x.className = x.className.replace(" w3-show", "");
-    }
+    {% include disqus.html %}
+
+    <footer class="mt-auto">
+      <section class="container text-center py-4">
+        <div class="">
+          <a href='https://www.instagram.com/hrqjunqueira/'><i class="fa fa-instagram footer-icons"></i></a>
+          <a href='https://github.com/henriquepjv'><i class="fa fa-github footer-icons"></i></a>
+          <a href='https://twitter.com/henriquepjv'><i class="fa fa-twitter footer-icons"></i></a>
+          <a href='https://www.linkedin.com/in/henrique-panham-junqueira-1454b2b3/'><i class="fa fa-linkedin footer-icons"></i></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,23 @@
+.without-style{
+  list-style-type: none;
+}
+
+a.without-decoration {
+  text-decoration: none;
+}
+
+li.list-post-width {
+  width: 20%;
+}
+
+li.list-item {
+  color: darkgray;
+  margin-bottom: 20px;
+}
+
+li.list-item:hover {
+  color: black;
+  border: 0px solid #eeeeee7d !important;
+  border-radius: 10px;
+  background-color: #f5f6f7;
+}
