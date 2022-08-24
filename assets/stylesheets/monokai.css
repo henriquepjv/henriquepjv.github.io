@@ -1,8 +1,8 @@
 .highlight pre {
   background-color: #272822;
   border-radius: 7px;
-  padding: 10px;
-  width: 80%;
+  padding-top: 24px;
+  width: 100%;
   margin: 0;
   overflow: auto;
 }
