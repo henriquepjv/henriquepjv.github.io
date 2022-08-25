@@ -6,12 +6,12 @@ comments: true
 related_image: ./assets/img/markdown-top.png
 ---
 
-<div class="w3-display-container">
+<div class="container">
   <img src="/assets/img/markdown-top.png" alt="git and jekyll" class="post-main-img w3-card w3-round">
 </div>
 
-<div class="w3-container w3-content w3-justify w3-text-grey w3-padding-32">
-  <h2 class="w3-text-orange blog-subtitle">Preocupação inicial</h2>
+<div class="container default-width mt-5 mb-5">
+  <h2 class="main-titles blog-subtitle mb-3">Preocupação inicial</h2>
   <p>Um ponto que influência muito na qualidade de um post de tech, na minha
   opinião, são os blocos de códigos bem formatados e que também esteja fácil de
   copiar para a área de transferência.</p>
@@ -19,11 +19,11 @@ related_image: ./assets/img/markdown-top.png
 deixar os blocos deste site iguais ao [desse aqui](https://dev.to/hoverbaum/how-to-add-code-highlighting-to-your-devto-posts-2lp6) </p>
 
 
-  <h2 class="w3-text-orange blog-subtitle">Como funciona no Jekyll</h2>
+  <h2 class="main-titles blog-subtitle mb-3">Como funciona no Jekyll</h2>
   <p markdown="1">A partir do jekyll 3 ele já vem com o [Rogue](https://github.com/rouge-ruby/rouge) incorporado, que fica responsável por destacar os trechos de código de acordo com a linguagem informada (possui algo em torno de 100 linguagens).</p>
   <p>E como engine para entender e processar o markdown o Jekyll utiliza o kramdown que já vem por padrão configurado.</p>
 
-  <h2 class="w3-text-orange blog-subtitle">Ativando o Markdown</h2>
+  <h2 class="main-titles blog-subtitle mb-3">Ativando o Markdown</h2>
   <p markdown="1">Para "ativar" o markdown em uma página específica, verifique se ela possui a extensão `.md` e além disse podemos usar as seguintes configurações:</p>
 
   {% highlight ruby %}
@@ -39,7 +39,7 @@ deixar os blocos deste site iguais ao [desse aqui](https://dev.to/hoverbaum/how-
 
   {% endhighlight %}
 
-  <h2 class="w3-text-orange blog-subtitle">Hora de configurar o Rogue</h2>
+  <h2 class="main-titles blog-subtitle mb-3">Hora de configurar o Rogue</h2>
   <p>Toda essa parte de cima foi para ativar o Markdown, porém ao utiliza-lo para destacar um trecho de código ele fica muito simples e ruim de ler.</p>
   <p markdown="1">Com isso vi que o Rogue possui alguns [templates](https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html) com CSS jã montados e com muitas opções disponíveis.</p>
   <p markdown="1">Escolhi o [monokai](https://github.com/henriquepjv/henriquepjv.github.io/blob/main/assets/stylesheets/monokai.css) e ainda customizei mais um pouco para ficar igual ao do `dev.to`</p>
@@ -66,7 +66,7 @@ deixar os blocos deste site iguais ao [desse aqui](https://dev.to/hoverbaum/how-
     {{ "{%" }} endhighlight %}
   {% endhighlight %}
 
-  <h2 class="w3-text-orange blog-subtitle">Impressão final</h2>
+  <h2 class="main-titles blog-subtitle mb-3">Impressão final</h2>
   <p>Tudo funcionou muito bem e fica fácil de configurar com apenas o que eu
 preciso. Lembrando que ainda podemos adicionar coisas como número de linhas,
 linguagem utilizada e melhorar o estilo.</p>
