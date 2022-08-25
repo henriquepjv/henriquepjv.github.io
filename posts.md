@@ -8,7 +8,7 @@ comments: false
   <div class="row g-4">
     <div class="col-sm-12 col-md-12">
       <h2 class="main-titles">Posts</h2>
-      <hr style="width:150px" class="main-titles">
+      <hr style="width:65%" class="main-titles">
       <ul class="without-style mt-5">
         {% for post in site.posts %}
           <a href="{{ post.url }}" class="without-decoration">
@@ -26,6 +26,7 @@ comments: false
           </a>
         {% endfor %}
       </ul>
+      <hr style="width:65%" class="main-titles mt-5">
     </div>
   </div>
 </div>

@@ -11,7 +11,6 @@ layout: default
   <div class="row g-4">
     <div class="col-sm-12 col-md-12">
       <h2 class="main-titles">Posts</h2>
-      <hr style="width:150px" class="main-titles">
       <ul class="without-style mt-4">
         {% for post in site.posts %}
           <a href="{{ post.url }}" class="without-decoration">
@@ -38,7 +37,6 @@ layout: default
   <div class="row">
     <div class="col-sm-12 col-md-12 about-text">
       <h2 class="main-titles">Henrique Panham</h2>
-      <hr style="width:300px" class="main-titles">
       <p class="pt-3">Bacharel em Sistemas de Informação pela Universidade Paulista.</p>
       <p>Atuo como desenvolvedor web e venho estudando e criando projetos com a linguagem Ruby, com o objetivo de me especializar. Tenho muito interesse em desenvolver projetos novos e desafiadores, assim me incentiva a resolver problemas e aumentar meu know-how.</p>
       <p>Conhecimentos práticos em desenvolvimento de aplicações com metodologias ágeis, utlizando sempre as melhores práticas como cobertura de testes (Rspec, TDD, Capybara), princípios SOLID, uso de repositório de dados(GitHub), docker, continuous integration(Semaphore) e Linux como SO. Desenvolvendo nas linguagens Ruby on Rails, CSS, HTML e Javascript.</p>
@@ -50,7 +48,6 @@ layout: default
   <div class="row">
     <div class="col-sm-12 col-md-12 progress-width">
       <h2 class="main-titles">My Skills</h2>
-      <hr style="width:250px" class="main-titles">
 
       <p class="pt-3">Beber café</p>
       <div class="progress">
@@ -82,7 +79,6 @@ layout: default
   <div class="row">
     <div class="col-sm-12 col-md-12">
       <h2 class="w3-text-orange main-titles">Entre em contato</h2>
-      <hr style="width:300px" class="main-titles">
 
       <div class="pt-3">
         <p><i class="fa fa-map-marker fa-fw"></i> Brasil, SP</p>
